@@ -1,0 +1,25 @@
+{
+  "name": "genai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aditya1006gt/GenAI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/aditya1006gt/GenAI/issues"
+  },
+  "homepage": "https://github.com/aditya1006gt/GenAI#readme",
+  "dependencies": {
+    "@google/genai": "^2.3.0",
+    "dotenv": "^17.4.2"
+  }
+}
