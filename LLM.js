@@ -1,4 +1,4 @@
-// npm install @google/genai
+//1st do this npm install @google/genai
 
 import "dotenv/config";
 import { GoogleGenAI } from "@google/genai";
