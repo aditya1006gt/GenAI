@@ -5,17 +5,11 @@ def get_gemini_response(question):
     response = requests.post("http://localhost:8000/essay/invoke", 
     json={"input": {"topic":question}})
 
-    print(response.status_code)
-    print(response.json())
-
     return response.json()["output"]["content"]
 
 def get_ollama_response(question):
     response = requests.post("http://localhost:8000/poem/invoke", 
     json={"input": {"topic":question}})
-
-    print(response.status_code)
-    print(response.json())
 
     return response.json()["output"]["content"]
 
